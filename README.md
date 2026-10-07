@@ -18,7 +18,8 @@ tree.sub <- tree_subset(tree, node = parent, levels_back = LEVELBACK)
 Starting with LEVELBACK = 0, the function progressively expands the subset tree until it contains ASVs with assigned taxonomy by increasing the value of LEVELBACK.
 The taxonomy shared among all classified relatives in the subset tree is determined.
 Taxonomic assignment is then made at the lowest taxonomic rank that is consistently shared by all relatives, provided that the node supporting the relationship exceeds the specified bootstrap threshold.
-Example
+
+Example:
 
 If all classified relatives belong to the species Nitrosomonas europaea:
 
