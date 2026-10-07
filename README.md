@@ -4,6 +4,12 @@ PhyloTax is an R function designed to assign taxonomy to unclassified ASVs/OTUs 
 
 Traditional taxonomic assignment methods such as the Naive Bayesian Classifier (NBC) and Bayesian Lowest Common Ancestor (BLCA) often leave a proportion of ASVs/OTUs unassigned, particularly when reference databases are incomplete. PhyloTax complements these approaches by using phylogenetic information to infer taxonomy for these unclassified sequences.
 
+**Dummy dataset**
+
+PhyloTree.nwk
+
+taxonomy_table.csv
+
 **How it works**
 
 The function identifies ASVs that are unassigned at a user-defined taxonomic level and searches for their closest classified relatives in a phylogenetic tree.
